@@ -2,7 +2,7 @@ name: sync-lxk0301/jd_scripts
 
 on:
   schedule:
-  - cron:  "0,20,40 7 7 * *"
+  - cron:  "0,20,40 * * * *"
   workflow_dispatch:
   watch:
     types: started
